@@ -6,7 +6,7 @@
  * @wordpress-plugin
  * Plugin Name:       GFireM Frontend Import
  * Plugin URI:        http://www.gfirem.com/
- * Description:       Let the user to add the import function in the frontend.
+ * Description:       Import Entries from the Frontend, easy as it sound.
  * Version:           1.0.0
  * Author:            Guillermo Figueroa Mesa
  * Author URI:        http://www.gfirem.com
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 if ( ! class_exists( 'GFireMFrontendImport' ) ) {
 	/**
-	 * Class Jam3ApiDoc
+	 * Class GFireMFrontendImport
 	 */
 	class GFireMFrontendImport {
 		/**
